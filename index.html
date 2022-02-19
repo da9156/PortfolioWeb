@@ -1,16 +1,28 @@
 <!DOCTYPE html>
-<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
-    <title> Responsive Portfolio Website | CodingLab </title>
-    <link rel="stylesheet" href="style.css">
+  <title> Darshan Kotkar </title>
+ 
     <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+     <link rel="stylesheet" href="Css/style.css">
+
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- ===== Link Swiper's CSS ===== -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <!-- ===== Fontawesome CDN Link ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
    </head>
 <body>
-  <!-- Move to up button -->
+    <!-- Move to up button -->
   <div class="scroll-button">
     <a href="#home"><i class="fas fa-arrow-up"></i></a>
   </div>
@@ -23,15 +35,20 @@
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#services">Services</a></li>
+          <li><a href="#project">Project</a></li>
           <li><a href="#contact">Contact</a></li>
           <div class="cancel-btn">
             <i class="fas fa-times"></i>
           </div>
       </ul>
       <div class="media-icons">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
+
+        <a href="https://wa.me/+919156570480"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://in.linkedin.com/in/darshan-kotkar-2a14701b4"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/Its_darshuu_here/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/da9156/"><i class="fab fa-facebook-f"></i></a>
+        
+        
       </div>
     </div>
     <div class="menu-btn">
@@ -41,15 +58,21 @@
 
 <!-- Home Section Start -->
  <section class="home" id="home">
+ <div class="text">
+ <div class="home" 
+     style="background-image: url('images/My.png');
+            height: 80vh">
    <div class="home-content">
-     <div class="text">
-       <div class="text-one">Hello,</div>
-       <div class="text-two">I'm Prem Shahi</div>
-       <div class="text-three">UI/UX Designer</div>
-       <div class="text-four">From Nepal</div>
+       <div class="text-one">Hello, my name is</div>
+       <div class="text-two">Darshan Kotkar</div>
+       <div class="text-three">& I'm <span class="typing"></span></div>
+       <div class="text-four">From Dhule</div>     
+</div>
      </div>
      <div class="button">
-       <button>Hire Me</button>
+     <a href="#contact"> <button> Hire Me</button></a>
+     <a href="CV.pdf" download>
+       <button>Download CV</button></a>
      </div>
    </div>
  </section>
@@ -60,14 +83,11 @@
     <div class="title"><span>About Me</span></div>
   <div class="about-details">
     <div class="left">
-      <img src="images/about.jpg" alt="">
+      <img src="images/Darshan.jpg" alt="">
     </div>
     <div class="right">
-      <div class="topic">Designing Is My Passion</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, porro veritatis pariatur, nobis voluptatem ipsum repellat nemo quisquam error reprehenderit recusandae odio vel, suscipit. Voluptas mollitia accusantium quaerat aspernatur labore dolorum placeat ipsa sint nam perspiciatis eos consectetur veritatis debitis, quis aliquam unde sed maiores sit! Hic molestiae optio iste iure earum amet nostrum quaerat facere quae veniam maiores harum iusto aperiam vel inventore illo voluptatibus voluptates quo impedit voluptatum error vitae, omnis praesentium? Aperiam nulla non, nesciunt fuga rem perferendis alias et, temporibus, distinctio culpa unde a laborum libero ducimus. Facilis veniam sit praesentium, voluptatibus sint maxime iusto eaque.</p>
-      <div class="button">
-        <button>Download CV</button>
-      </div>
+      <div class="topic">Engineering Is My Passion</div>
+      <p>Hello! I'm introduce my self, My name is Darshan Nandkishor Kotkar ,I'm 20 years old , i am a third year student of computer engineering studying in SVKM IOT college Dhule , I have a good knowledge about Computer ,I can do coding nicely , I'm Achieve best practice performance skill in Web development as well as in SQL also.</p>
     </div>
   </div>
   </div>
@@ -81,33 +101,54 @@
    <div class="skills-details">
      <div class="text">
        <div class="topic">Skills Reflects Our Knowledge</div>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus natus tenetur tempora? Quasi, rem quas omnis. Porro rem aspernatur reiciendis ut praesentium minima ad, quos, officia! Illo libero, et, distinctio repellat sed nesciunt est modi quaerat placeat. Quod molestiae, alias?</p>
+       <p>To the best of my knowledge and belief myself, Looking for a work opportunity that will utilize the knowledge, I possess to create Innovative Technology.</p>
        <div class="experience">
-         <div class="num">10</div>
+         <div class="num">04</div>
          <div class="exp">Years Of <br> Experience</div>
        </div>
      </div>
-     <div class="boxes">
-       <div class="box">
-         <div class="topic">HTML</div>
-         <div class="per">90%</div>
-       </div>
-       <div class="box">
-         <div class="topic">CSS</div>
-         <div class="per">80%</div>
-       </div>
-       <div class="box">
-         <div class="topic">JavScript</div>
-         <div class="per">70%</div>
-       </div>
-       <div class="box">
-         <div class="topic">PHP</div>
-         <div class="per">60%</div>
-       </div>
-     </div>
+
+     <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>C#</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>C++</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Java</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Python</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line php"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>MySQL</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+                </div>
    </div>
  </div>
 </section>
+
 
 <!-- My Services Section Start -->
  <section class="services" id="services">
@@ -119,68 +160,422 @@
            <i class="fas fa-desktop"></i>
        </div>
        <div class="topic">Web Devlopment</div>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+       <p> The work involved in developing a website, Built for lasting knowledge so you never lose great ideas or context in a transient notification or chat.</p>
      </div>
-       <div class="box">
-         <div class="icon">
-           <i class="fas fa-paint-brush"></i>
-       </div>
-       <div class="topic">Graphic Design</div>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
-     </div>
+      
        <div class="box">
          <div class="icon">
            <i class="fas fa-chart-line"></i>
        </div>
        <div class="topic">Digital Marketing</div>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+       <p>Digital marketing is the component of marketing that i will help you how you sell your product and built your strong empire in the market.</p>
      </div>
-       <div class="box">
-         <div class="icon">
-           <i class="fab fa-android"></i>
-       </div>
-       <div class="topic">Icon Design</div>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
-     </div>
-       <div class="box">
-         <div class="icon">
-           <i class="fas fa-camera-retro"></i>
-       </div>
-       <div class="topic">Photography</div>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
-     </div>
+       
+       
        <div class="box">
          <div class="icon">
            <i class="fas fa-tablet-alt"></i>
        </div>
        <div class="topic">Apps Devlopment</div>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+       <p>Just i show you ship with confidence and sanity knowing the information you have is always up-to-date.</p>
      </div>
    </div>
    </div>
  </section>
+
+ <!-- My Project Section Start -->
+ <section class="project" id="project">
+   <div class="content">
+     
+     <div class="title"><span>My Projects</span></div>
+    
+   </div>
+   
+    
+    <div class="swiper mySwiper container">
+      <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper content">
+
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="images/Travel System_1.png" alt="Travel System" width="250" height="150">
+            </div>
+
+            <div class="media-icons">
+            <a href="https://www.hackerrank.com/darshankotkar123"> <i class="fab fa-hackerrank"></i></a>
+            <a href="https://github.com/da9156"><i class="fab fa-github"></i></a>
+            </div>
+
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+            <h4 class="card-title">Travel System</h4>
+
+            <div class="name-profession">
+
+                <p class="card-text">
+                  In this project we have developed a<br>‘Travel System’ to arrange customers <br>data.
+                </p>
+                <div class="button">
+                <a href="#"><button class="aboutMe">Demo</button></a>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="images/Registration form_2.png" alt="Registration form" width="250" height="150">
+            </div>
+
+            <div class="media-icons">
+            <a href="https://www.hackerrank.com/darshankotkar123"> <i class="fab fa-hackerrank"></i></a>
+            <a href="https://github.com/da9156"><i class="fab fa-github"></i></a>
+            </div>
+
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+            <h4 class="card-title">Registration form</h4>
+
+            <div class="name-profession">
+
+                <p class="card-text">
+                  In this project we have developed a<br>Responsive Contact Form using php <br>Programming.
+                </p>
+                <div class="button">
+                <a href="#"><button class="aboutMe">Demo</button>
+                </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="images/Login page_3.png" alt="Login page" width="250" height="150">
+            </div>
+
+            <div class="media-icons">
+            <a href="https://www.hackerrank.com/darshankotkar123"> <i class="fab fa-hackerrank"></i></a>
+            <a href="https://github.com/da9156"><i class="fab fa-github"></i></a>
+            </div>
+
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+                <h4 class=""> Login page </h4>
+                
+                <div class="name-profession">
+                  
+            <div class="right">
+              <p>In this project we have developed <br> Login page of verification of otp <br>and send to the customer mail id.
+            </div>
+
+                <div class="button">
+                <a href="#"><button class="aboutMe">Demo</button>
+                </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="images/Admin Panel_4.png" alt="Admin Panel" width="250" height="150">
+            </div>
+
+            <div class="media-icons">
+            <a href="https://www.hackerrank.com/darshankotkar123"> <i class="fab fa-hackerrank"></i></a>
+            <a href="https://github.com/da9156"><i class="fab fa-github"></i></a>
+            </div>
+
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+            <h4 class=""> Admin Panel </h4>
+                
+                <div class="name-profession">
+  
+            <div class="right">
+              <p>The system designed of provides the<br> functionality to create , read , update <br>and delete entities like Add database.
+            </div>
+
+                <div class="button">
+                <a href="#"><button class="aboutMe">Demo</button>
+                </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="images/Portfolio_8.png" alt="Portfolio" width="250" height="150">
+            </div>
+
+            <div class="media-icons">
+            <a href="https://www.hackerrank.com/darshankotkar123"> <i class="fab fa-hackerrank"></i></a>
+            <a href="https://github.com/da9156"><i class="fab fa-github"></i></a>
+            </div>
+
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+            <h4 class=""> Portfolio </h4>
+                
+                <div class="name-profession">
+  
+            <div class="right">
+              <p>In this project we have developed<br> a portfolio side to expand my infor<br>-mation of my self.</p>
+            </div>
+
+                <div class="button">
+                <a href="#"><button class="aboutMe">Demo</button>
+                </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="images/Price table_5.png" alt="Price table" width="250" height="150">
+            </div>
+
+            <div class="media-icons">
+            <a href="https://www.hackerrank.com/darshankotkar123"> <i class="fab fa-hackerrank"></i></a>
+            <a href="https://github.com/da9156"><i class="fab fa-github"></i></a>
+            </div>
+
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+                <h4 class=""> Price Table </h4>
+
+                <div class="name-profession">
+            <div class="right">
+              <p>In this project we have developed <br>a  Price table  for customer , This <br>site i was sell & earn stipend.</p>
+            </div>
+                <div class="button">
+                <a href="http://darshuworld.c1.biz/"> <button class="aboutMe">Demo</button>
+                </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="images/About Web_6.png" alt="About Web" width="250" height="150">
+            </div>
+
+            <div class="media-icons">
+            <a href="https://www.hackerrank.com/darshankotkar123"> <i class="fab fa-hackerrank"></i></a>
+            <a href="https://github.com/da9156"><i class="fab fa-github"></i></a>
+            </div>
+
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+            <h4 class=""> About Web-Development</h4>
+            <div class="right">
+              <p>In this project we have developed a<br> suitable information about web this<br> site help to beginners.</p>
+            </div>
+
+            <div class="name-profession">
+
+              
+                <div class="button">
+                <a href="http://darshugroup.c1.biz/"><button class="aboutMe">Demo</button>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="images/Dhule Tourism_7.png" alt="Dhule Tourism " width="250" height="150">
+            </div>
+
+            <div class="media-icons">
+            <a href="https://www.hackerrank.com/darshankotkar123"> <i class="fab fa-hackerrank"></i></a>
+            <a href="https://github.com/da9156"><i class="fab fa-github"></i></a>
+            </div>
+
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+            <h4 class=""> Dhule Tourism</h4>
+            <div class="right">
+              <p>In this project we have developed <br>a Dhule Tourism site this site show<br> you information about Dhule.</p>
+            </div>
+
+                <div class="button">
+                <a href="https://sites.google.com/view/welcometodhule"><button class="aboutMe">Demo</button>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+
+       
+
+      </div>
+    </div>
+
+    
+
+
+   </div>
+   
+ </section>
+ 
+
 
 <!-- Contact Me section Start -->
 <section class="contact" id="contact">
   <div class="content">
     <div class="title"><span>Contact Me</span></div>
     <div class="text">
+    <div class=""><span><a><h1>Get In Touch :</span></div>
+
+    <p><i class='fas fa-map-marker-alt' style='font-size:21px'></i><strong>  Address:</strong> Dhule 424001, Maharashtra , India.</p>
+    <p><i class='fas fa-phone-square' style='font-size:21px'></i><strong> Phone:</strong> +91 9156570480</p>
+    <p><i class='fas fa-location-arrow' style='font-size:21px'></i><strong> Email:</strong><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=darshankotkar123@gmail.com" target="_blank"> darshankotkar123@gmail.com</a> </p>
+    <p><i class="fas fa-desktop" style='font-size:21px'></i><strong> Website:</strong><a href="http://darshankotkar.me/"> www.darshankotkar.me</a></p>
+    
+<div class="title"><span></span></div>
+    <div class="topic"><span><a> </span></div>
+    <div class="column right">
+    <form action="contact_form.php" method="post">
+
+            <div class="fields">
+              <div class="field name">
+                  <input type="text" placeholder="Name" name="Name" required>
+              </div>
+
+              <div class="field email">
+                  <input type="email" placeholder="Email" name="Email" required>
+              </div>
+              
+          </div>
+
+           <div class="field">
+              <input type="text" placeholder="Subject" name="Subject" required>
+           </div>
+
+           <div class="field textarea">
+              <textarea cols="30" rows="10" placeholder="Message.." name="Message"  required></textarea>
+           </div>
+           
+          <div class="button">
+          <div class="button-area">
+          <button type="submit">Send message</button>
+          </div>
+      </form>
+  </div>
+
       <div class="topic">Have Any Project?</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.</p>
       <div class="button">
-        <button>Let's Chat</button>
+        <a href="https://wa.me/+919156570480">
+          <button class="aboutMe">Let's Chat</button>
       </div>
+
     </div>
   </div>
+  
 </section>
 
 <!-- Footer Section Start -->
 <footer>
   <div class="text">
-    <span>Created By <a href="#">CodingLab</a> | &#169; 2021 All Rights Reserved</span>
+    <span>Created By darshankotkar.me</a> | &#169; 2021 All Rights Reserved</span>
   </div>
 </footer>
 
-  <script src="script.js"></script>
+  <script src="JavaScript/script.js"></script>
+  
+
+
+    <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+  
 </body>
-</html>
+</html>   
