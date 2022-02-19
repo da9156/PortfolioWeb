@@ -1,4 +1,5 @@
 // Sticky Navigation Menu JS Code
+
 let nav = document.querySelector("nav");
 let scrollBtn = document.querySelector(".scroll-button a");
 console.log(scrollBtn);
@@ -43,3 +44,25 @@ for (var i = 0; i < navLinks.length; i++) {
     menuBtn.style.pointerEvents = "auto";
   });
 }
+
+//Typing animation script
+var typed = new Typed(".typing", {
+  strings: ["Engineer","Coder","Developer", "Designer", "Blogger", "Freelancer"],
+  typeSpeed: 100,
+  backSpeed: 60,
+  loop: true
+});
+var typed = new Typed(".typing-2", {
+  strings: ["Engineer","Coder","Developer", "Designer", "Blogger", "Freelancer"],
+  typeSpeed: 100,
+  backSpeed: 60,
+  loop: true
+});
+
+
+
+
+
+
+// ============================================
+
