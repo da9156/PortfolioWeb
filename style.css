@@ -112,7 +112,7 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-  background: url("images/My.png") no-repeat;
+  background-image: url("images/My.png") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -215,10 +215,11 @@ section .title span::after{
   width: 45%;
 }
 .about .left img{
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   object-fit: cover;
   border-radius: 12px;
+  display: flex;
 }
 .about-details .right{
   width: 55%;
@@ -528,7 +529,7 @@ footer .text span a:hover{
 @media (max-width: 1000px) {
   .about .about-details{
     justify-content: center;
-    flex-direction:  ;
+    flex-direction: column;
   }
   .about .about-details .left{
     display: flex;
@@ -536,8 +537,9 @@ footer .text span a:hover{
     width: 100%;
   }
   .about-details .right{
-    width: 90%;
-    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
   .services .boxes .box{
     margin: 20px 0;
@@ -628,4 +630,16 @@ footer .text span a:hover{
     color: #4070f4;
   }
 }
+
+
+@media (max-width: 768px){
+  html{
+    font-size: 55%;
+  }
+
+  .about .left img{
+      display: block;
+  }
+}
+
 /* ======================================================== */
