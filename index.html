@@ -23,6 +23,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -94,27 +97,30 @@
         <div class="title"><span>About Me</span></div>
         <div class="about-details">
           <div class="left">
-            <img src="images/Darsha1.jpg" alt="" width="100%" height="auto">
+            <img src="images/Darsha1.jpg" alt="">
           </div>
           <div class="right">
-            <div class="topic">Engineering Is My Passion :</div>
-            <p>Hello! My name is Darshan Nandkishor Kotkar
-              <a href="https://www.google.com/search?q=darshan+kotkar&rlz=1C1ONGR_enIN991IN991&oq=darshan+kotkar&aqs=chrome.0.69i59j35i39j69i60l3.3736j0j4&sourceid=chrome&ie=UTF-8"
-                target="_blank">
-                <i class="fab fa-google"></i></a>
-              , I'm 21 years old & Last year student of computer engineering ,
-              studying in SVKM IOT college <a href="https://www.svkm-iot.ac.in/" target="_blank"><i
-                  class="fas fa-user-graduate"></i></a>Dhule , I have a good knowledge about Computer , I can do coding
-              nicely , I'm Achieve best practice performance
-              skill in Web development as well as in MySQL also.
-            </p>
+            <div class="topic" id="tp">Engineering Is My Passion :</div>
+            <div class="topic-body">
+              <p>Hello! My name is Darshan Nandkishor Kotkar
+                <a href="https://www.google.com/search?q=darshan+kotkar&rlz=1C1ONGR_enIN991IN991&oq=darshan+kotkar&aqs=chrome.0.69i59j35i39j69i60l3.3736j0j4&sourceid=chrome&ie=UTF-8"
+                  target="_blank">
+                  <i class="fab fa-google"></i></a>
+                , I'm 21 years old & Last year student of computer engineering ,
+                studying in SVKM IOT college <a href="https://www.svkm-iot.ac.in/" target="_blank"><i
+                    class="fas fa-user-graduate"></i></a> Dhule , I have a good knowledge about Computer , I can do
+                coding
+                nicely , I'm Achieve best practice performance
+                skill in Web development as well as in MySQL also.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
+
     <!-- My Skill Section Start -->
-    <!-- Section Tag and Other Div will same where we need to put same CSS -->
     <section class="skills" id="skills">
       <div class="content">
         <div class="title"><span>My Skills</span></div>
@@ -213,713 +219,502 @@
         <div class="title"><span>My Projects</span></div>
 
       </div>
+      <!-- card -->
+      <div id="carouselExampleControls" class="carousel slide" data-ride="">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="cards-wrapper">
 
-
-      <div class="swiper mySwiper container">
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-        <div class="swiper-wrapper content">
-
-          <!-- -------------------------------------------------------------------- -->
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="images/SunhillsSolar.png" alt="About Web" width="250" height="150">
-              </div>
-
-              <div class="media-icons">
-                <a href=""><i class="fab fa-github"></i></a>
-              </div>
-
-              <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
-
-              <h4 class=""> SunHills Solar Technology</h4>
-              <div class="right">
-                <p>This is my client base project<br> I have created a site to display <br>some information about the
-                  company.</p>
-              </div>
-
-              <div class="name-profession">
-
-
-                <div class="button">
-                  <a href="https://sunhillssolar.com" target="_blank"><button class="aboutMe">Demo</button></a>
+              <div class="card">
+                <img src="images/shivsenaIndia.png" alt="Shivsena" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Shivsena India</h5>
+                  <a class="project-icon" href="https://github.com/da9156/shivsenaindia" target="_blank"><i
+                      class="fab fa-github"></i></a>
+                  <p class="card-text">First live project When i am doing my Internship in White & Brooks IT Software,
+                    Mumbai. </p>
+                  <a href="https://da9156.github.io/shivsenaindia/" target="_blank" class="btn btn-primary">Demo</a>
                 </div>
               </div>
+
+              <div class="card d-none d-md-block">
+                <img src="images/SunhillsSolar.png" alt="About Web" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">SunHills Solar Technology</h5>
+                  <a class="project-icon" href="https://github.com/da9156/Sun" target="_blank"><i
+                      class="fab fa-github"></i></a>
+                  <p class="card-text">This is my freelancing project I have created a site to display some information
+                    about the
+                    company.</p>
+                  <a href="https://sunhillssolar.com" target="_blank" class="btn btn-primary">Demo</a>
+                </div>
+              </div>
+
+              <div class="card d-none d-md-block">
+                <img src="images/Happy_Mart.png" alt="Mart" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Happy Mart E-Store</h5>
+                  <p class="card-text">I have done Front-end work on this a site, and they paid me for it when I
+                    was in happy mart shop.</p>
+                  <a href="https://happymartdhule.justdial.com" target="_blank" class="btn btn-primary">Demo</a>
+                </div>
+              </div>
+
+
+
             </div>
           </div>
-          <!-- -------------------------------------------------------------------- -->
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="images/Happy_Mart.png" alt="Travel System" width="250" height="150">
-              </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
 
-              <div class="media-icons">
-                <a target="_blank"><i class="fab fa-github"></i></a>
-              </div>
-
-              <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
-
-              <h4 class="card-title">Happy Mart E-Store</h4>
-
-              <div class="name-profession">
-
-                <p class="card-text">
-                  I have done Front-end work on this a<br>site, and they paid me for it when I<br>
-                  was in happy mart shop.
-                </p>
-                <div class="button">
-                  <a href="https://happymartdhule.justdial.com" target="_blank"><button
-                      class="aboutMe">Demo</button></a>
+              <div class="card">
+                <img src="images/Travel System_1.png" alt="Travel System" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Travel System</h5>
+                  <a class="project-icon" href="https://github.com/da9156/TravelSystem" target="_blank"><i
+                      class="fab fa-github"></i></a>
+                  <p class="card-text">In this project i have developed a 'Travel System' to arrange customers data.</p>
+                  <a href="https://da9156.github.io/TravelSystem/" target="_blank" class="btn btn-primary">Demo</a>
                 </div>
               </div>
-            </div>
-          </div>
 
-          <!-- -------------------------------------------------------------------- -->
-
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="images/Travel System_1.png" alt="Travel System" width="250" height="150">
-              </div>
-
-              <div class="media-icons">
-                <a href="https://github.com/da9156/TravelSystem" target="_blank"><i class="fab fa-github"></i></a>
-              </div>
-
-              <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
-
-              <h4 class="card-title">Travel System</h4>
-
-              <div class="name-profession">
-
-                <p class="card-text">
-                  In this project i have developed a<br>'Travel System' to arrange customers <br>data.
-                </p>
-                <div class="button">
-                  <a href="https://da9156.github.io/TravelSystem/" target="_blank"><button
-                      class="aboutMe">Demo</button></a>
+              <div class="card d-none d-md-block">
+                <img src="images/Ml.jpg" alt="About Web" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">ML-Liver Patients Detection</h5>
+                  <a class="project-icon" href="https://github.com/da9156/ML-Liver-Patient-dataset" target="_blank"><i
+                      class="fab fa-github"></i></a>
+                  <p class="card-text">Performed model evaluation on liver patients using classification models as SVM,
+                    KNN and
+                    decision tree.</p>
+                  <a href="https://github.com/da9156/ML-Liver-Patient-dataset" target="_blank"
+                    class="btn btn-primary">Demo</a>
                 </div>
               </div>
+
+              <div class="card d-none d-md-block">
+                <img src="images/Admin Panel_4.png" alt="Admin Panel" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Admin Panel</h5>
+                  <a class="project-icon" href="https://github.com/da9156/LoginPage" target="_blank"><i
+                      class="fab fa-github"></i></a>
+                  <p class="card-text">The system designed of provides the functionality to create , read , update and
+                    delete
+                    entities like Add database.</p>
+                  <a href="https://traveldashboard.000webhostapp.com/" target="_blank" class="btn btn-primary">Demo</a>
+                </div>
+              </div>
+
+
+
             </div>
           </div>
 
-          <!-- -------------------------------------------------------------------- -->
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="images/Ml.jpg" alt="About Web" width="250" height="150">
-              </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
 
-              <div class="media-icons">
-                <a href="https://github.com/da9156/ML-Liver-Patient-dataset" target="_blank"><i
-                    class="fab fa-github"></i></a>
-              </div>
-
-              <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
-
-              <h4 class=""> ML-Liver Patients Detection</h4>
-              <div class="right">
-                <p>Performed model evaluation on liver<br> patients using classification models <br>as SVM, KNN and
-                  decision tree.</p>
-              </div>
-
-              <div class="name-profession">
-                <div class="button">
-                  <a href="https://github.com/da9156/ML-Liver-Patient-dataset" target="_blank"><button
-                      class="aboutMe">Demo</button></a>
+              <div class="card">
+                <img src="images/Login page_3.png" alt="Login page" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Login page</h5>
+                  <a class="project-icon" href="https://github.com/da9156/LoginPage" target="_blank"><i
+                      class="fab fa-github"></i></a>
+                  <p class="card-text">In this project i have developed Login page of verification of otp and send to
+                    the
+                    customer mail id.</p>
+                  <a href="https://da9156.github.io/LoginPage/" target="_blank" class="btn btn-primary">Demo</a>
                 </div>
               </div>
-            </div>
-          </div>
-          <!-- -------------------------------------------------------------------- -->
 
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="images/Admin Panel_4.png" alt="Admin Panel" width="250" height="150">
-              </div>
-
-              <div class="media-icons">
-                <a href="https://github.com/da9156/LoginPage" target="_blank"><i class="fab fa-github"></i></a>
-              </div>
-
-              <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
-
-              <h4 class=""> Admin Panel </h4>
-
-              <div class="name-profession">
-
-                <div class="right">
-                  <p>The system designed of provides the<br> functionality to create , read , update <br>and delete
-                    entities like Add database.
-                </div>
-
-                <div class="button">
-                  <a href="https://traveldashboard.000webhostapp.com/" target="_blank"><button
-                      class="aboutMe">Demo</button></a>
+              <div class="card d-none d-md-block">
+                <img src="images/Registration form_2.png" alt="Registration form" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Registration form</h5>
+                  <a class="project-icon" href="https://github.com/da9156/RegistrationForm" target="_blank"><i
+                      class="fab fa-github"></i></a>
+                  <p class="card-text">In this project i have developed a Responsive Contact Form using php Programming.
+                  </p>
+                  <a href="https://da9156.github.io/RegistrationForm/" target="_blank" class="btn btn-primary">Demo</a>
                 </div>
               </div>
+
+              <div class="card d-none d-md-block">
+                <img src="images/Portfolio_8.png" alt="Portfolio" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Portfolio</h5>
+                  <a class="project-icon" href="https://github.com/da9156/PortfolioWeb" target="_blank"><i
+                      class="fab fa-github"></i></a>
+                  <p class="card-text">In this project i have developed a portfolio side to expand my information of my
+                    self.</p>
+                  <a href="#" class="btn btn-primary">Demo</a>
+                </div>
+              </div>
+
             </div>
           </div>
 
+          <div class="carousel-item">
+            <div class="cards-wrapper">
 
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="images/Login page_3.png" alt="Login page" width="250" height="150">
-              </div>
-
-              <div class="media-icons">
-                <a href="https://github.com/da9156/LoginPage" target="_blank"><i class="fab fa-github"></i></a>
-              </div>
-
-              <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
-
-              <h4 class=""> Login page </h4>
-
-              <div class="name-profession">
-
-                <div class="right">
-                  <p>In this project i have developed <br> Login page of verification of otp <br>and send to the
-                    customer mail id.
-                </div>
-
-                <div class="button">
-                  <a href="https://da9156.github.io/LoginPage/" target="_blank"><button
-                      class="aboutMe">Demo</button></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="images/Registration form_2.png" alt="Registration form" width="250" height="150">
-              </div>
-
-              <div class="media-icons">
-                <a href="https://github.com/da9156/RegistrationForm" target="_blank"><i class="fab fa-github"></i></a>
-              </div>
-
-              <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
-
-              <h4 class="card-title">Registration form</h4>
-
-              <div class="name-profession">
-
-                <p class="card-text">
-                  In this project i have developed a<br>Responsive Contact Form using php <br>Programming.
-                </p>
-                <div class="button">
-                  <a href="https://da9156.github.io/RegistrationForm/" target="_blank"><button
-                      class="aboutMe">Demo</button></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="images/Portfolio_8.png" alt="Portfolio" width="250" height="150">
-              </div>
-
-              <div class="media-icons">
-                <a href="https://github.com/da9156/PortfolioWeb" target="_blank"><i class="fab fa-github"></i></a>
-              </div>
-
-              <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
-
-              <h4 class=""> Portfolio </h4>
-
-              <div class="name-profession">
-
-                <div class="right">
-                  <p>In this project i have developed<br> a portfolio side to expand my infor<br>-mation of my self.</p>
-                </div>
-
-                <div class="button">
-                  <a href="#"><button class="aboutMe">Demo</button></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="images/Price table_5.png" alt="Price table" width="250" height="150">
-              </div>
-
-              <div class="media-icons">
-                <a href="https://github.com/da9156/Price-Table" target="_blank"><i class="fab fa-github"></i></a>
-              </div>
-
-              <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
-
-              <h4 class=""> Price Table </h4>
-
-              <div class="name-profession">
-                <div class="right">
-                  <p>In this project we have developed <br>a Price table for customer , This <br>site i was sell & earn
+              <div class="card">
+                <img src="images/Price table_5.png" alt="Price table" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Price Table</h5>
+                  <a class="project-icon" href="https://github.com/da9156/Price-Table" target="_blank"><i
+                      class="fab fa-github"></i></a>
+                  <p class="card-text">In this project we have developed a Price table for customer , This site i was
+                    sell & earn
                     stipend.</p>
-                </div>
-                <div class="button">
-                  <a href="https://da9156.github.io/Price-Table/" target="_blank"> <button
-                      class="aboutMe">Demo</button></a>
+                  <a href="https://da9156.github.io/Price-Table/" target="_blank" class="btn btn-primary">Demo</a>
                 </div>
               </div>
+
+              <div class="card d-none d-md-block">
+                <img src="images/About Web_6.png" alt="About Web" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">About Web-Development</h5>
+                  <a class="project-icon" href="https://github.com/da9156/About-Web-Development" target="_blank"><i
+                      class="fab fa-github"></i></a>
+                  <p class="card-text">In this project i have developed a suitable information about web this site help
+                    to
+                    beginners.</p>
+                  <a href="https://da9156.github.io/About-Web-Development/" target="_blank"
+                    class="btn btn-primary">Demo</a>
+                </div>
+              </div>
+
+              <div class="card d-none d-md-block">
+                <img src="images/Dhule Tourism_7.png" alt="Dhule Tourism" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Dhule Tourism</h5>
+                  <p class="card-text">In this project i have developed a Dhule Tourism site this site show you
+                    information about
+                    Dhule.</p>
+                  <a href="https://sites.google.com/view/welcometodhule" target="_blank"
+                    class="btn btn-primary">Demo</a>
+                </div>
+              </div>
+
             </div>
           </div>
 
-
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="images/About Web_6.png" alt="About Web" width="250" height="150">
-              </div>
-
-              <div class="media-icons">
-                <a href="https://github.com/da9156/About-Web-Development" target="_blank"><i
-                    class="fab fa-github"></i></a>
-              </div>
-
-              <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
-
-              <h4 class=""> About Web-Development</h4>
-              <div class="right">
-                <p>In this project i have developed a<br> suitable information about web this<br> site help to
-                  beginners.</p>
-              </div>
-
-              <div class="name-profession">
+        </div>
+        <a class="swiper-button-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="swiper-button-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- card end -->
 
 
-                <div class="button">
-                  <a href="https://da9156.github.io/About-Web-Development/" target="_blank"><button
-                      class="aboutMe">Demo</button></a>
+
+
+      <!-- My Project Section Start -->
+      <section class="Achievement" id="achievement">
+        <div class="content">
+          <div class="title"><span>My Achievement</span></div>
+        </div>
+
+
+        <div class="swiper mySwiper container">
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-wrapper content">
+
+            <!-- ---------------------------------------------------------------------------------------------- -->
+            <div class="swiper-slide">
+              <div class="card-content">
+                <div class="image">
+                  <a target="_blank" href="images/Certificate/Salesforce  administrator.pdf">
+                    <img src="images/Certificate/Salesforce.jpg" alt="Salesforce" width="250" height="150">
+                  </a>
                 </div>
+                <h5 class="card-title">Internship Certificate -</h5>
+                <p>Salesforce Administrator</p>
+
               </div>
             </div>
+            <!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+            <!-- ---------------------------------------------------------------------------------------------- -->
+            <div class="swiper-slide">
+              <div class="card-content">
+                <div class="image">
+                  <a target="_blank" href="images/Certificate/IICC round 2 .pdf">
+                    <img src="images/Certificate/IICC round 2.png" alt="IICC" width="250" height="150">
+                  </a>
+                </div>
+                <h5 class="card-title">IICC Contest -</h5>
+                <p>Cleared coding round 2 with <br> 941 among 83k+ contestants in all India.</p>
+
+              </div>
+            </div>
+            <!-- ------------------------------------------------------------------------------------------------------------------ -->
+            <div class="swiper-slide">
+              <div class="card-content">
+                <div class="image">
+                  <a target="_blank" href="images/Certificate/IDBI Java technology Certificate.pdf">
+                    <img src="images/Certificate/IDBI Java technology.png" alt="IDBI" width="250" height="150">
+                  </a>
+                </div>
+                <h5 class="card-title">Traning Certificate -</h5>
+                <p>IDBI Java Technology</p>
+
+              </div>
+            </div>
+            <!-- ---------------------------------------------------------------------------------------------- -->
+            <div class="swiper-slide">
+              <div class="card-content">
+                <div class="image">
+                  <a target="_blank" href="images/Certificate/Google1.jpg">
+                    <img src="images/Certificate/Google1.jpg" alt="Google " width="250" height="150">
+                  </a>
+                </div>
+                <h5 class="card-title">Google -</h5>
+                <p>Fundamental Of Digital Marketing</p>
+
+              </div>
+            </div>
+            <!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+            <!-- ---------------------------------------------------------------------------------------------- -->
+            <div class="swiper-slide">
+              <div class="card-content">
+                <div class="image">
+                  <a target="_blank" href="images/Certificate/Microsoft2.jpg">
+                    <img src="images/Certificate/Microsoft2.jpg" alt="Microsoft" width="250" height="150">
+                  </a>
+                </div>
+                <h5 class="card-title">Microsoft -</h5>
+                <p>Artificial intelligence Series</p>
+
+              </div>
+            </div>
+            <!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+            <!-- ---------------------------------------------------------------------------------------------- -->
+            <div class="swiper-slide">
+              <div class="card-content">
+                <div class="image">
+                  <a target="_blank" href="images/Certificate/SQL3.jpg">
+                    <img src="images/Certificate/SQL3.jpg" alt="Sololearn" width="250" height="150">
+                  </a>
+                </div>
+                <h5 class="card-title">Sololearn -</h5>
+                <p>SQL</p>
+              </div>
+            </div>
+            <!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+            <!-- ---------------------------------------------------------------------------------------------- -->
+            <div class="swiper-slide">
+              <div class="card-content">
+                <div class="image">
+                  <a target="_blank" href="images/Certificate/Microsoft4.jpg">
+                    <img src="images/Certificate/Microsoft4.jpg" alt="Artificial" width="250" height="150">
+                  </a>
+                </div>
+                <h5 class="card-title">Microsoft -</h5>
+                <p>Artificial intelligence</p>
+              </div>
+            </div>
+            <!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+            <!-- ---------------------------------------------------------------------------------------------- -->
+            <div class="swiper-slide">
+              <div class="card-content">
+                <div class="image">
+                  <a target="_blank" href="images/Certificate/Eyantra5.jpg">
+                    <img src="images/Certificate/Eyantra5.jpg" alt="Eyantra" width="250" height="150">
+                  </a>
+                </div>
+                <h5 class="card-title">Eyantra -</h5>
+                <p>Internet Of Things (IOT)</p>
+              </div>
+            </div>
+            <!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+            <!-- ---------------------------------------------------------------------------------------------- -->
+            <div class="swiper-slide">
+              <div class="card-content">
+                <div class="image">
+                  <a target="_blank" href="images/Certificate/DELL6.jpg">
+                    <img src="images/Certificate/DELL6.jpg" alt="Dell" width="250" height="150">
+                  </a>
+                </div>
+
+                <h5 class="card-title">Dell -</h5>
+                <p>Web Development</p>
+
+              </div>
+            </div>
+            <!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+            <!-- ---------------------------------------------------------------------------------------------- -->
+            <div class="swiper-slide">
+              <div class="card-content">
+                <div class="image">
+                  <a target="_blank" href="images/Certificate/Coursera7.jpg">
+                    <img src="images/Certificate/Coursera7.jpg" alt="Coursera" width="250" height="150">
+                  </a>
+                </div>
+
+                <h5 class="card-title">Coursera -</h5>
+                <p> Business English: Management and Leadership</p>
+
+              </div>
+            </div>
+            <!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+            <!-- ---------------------------------------------------------------------------------------------- -->
+            <div class="swiper-slide">
+              <div class="card-content">
+                <div class="image">
+                  <a target="_blank" href="images/Certificate/Coursera8.jpg">
+                    <img src="images/Certificate/Coursera8.jpg" alt="Coursera" width="250" height="150">
+                  </a>
+                </div>
+
+                <h5 class="card-title">Coursera -</h5>
+                <p>Business English: Finance and Economics</p>
+
+              </div>
+            </div>
+            <!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+            <!-- ---------------------------------------------------------------------------------------------- -->
+            <div class="swiper-slide">
+              <div class="card-content">
+                <div class="image">
+                  <a target="_blank" href="images/Certificate/Microsoft PowerApps9.jpg">
+                    <img src="images/Certificate/Microsoft PowerApps9.jpg" alt="Microsoft PowerApps" width="250"
+                      height="150">
+                  </a>
+                </div>
+
+                <h5 class="card-title">SVKM -</h5>
+                <p>Microsoft PowerApps</p>
+
+              </div>
+            </div>
+            <!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+            <!-- ---------------------------------------------------------------------------------------------- -->
+            <div class="swiper-slide">
+              <div class="card-content">
+                <div class="image">
+                  <a target="_blank" href="images/Certificate/ICETIC10.jpg">
+                    <img src="images/Certificate/ICETIC10.jpg" alt="Blockchain" width="250" height="150">
+                  </a>
+                </div>
+
+                <h5 class="card-title">SVKM -</h5>
+                <p>Blockchain: Paper Publish </p>
+
+              </div>
+            </div>
+            <!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+
+
+
           </div>
+        </div>
+        </div>
+      </section>
 
 
+      <!-- Contact Me section Start -->
+      <section class="contact" id="contact">
+        <div class="content">
+          <div class="title"><span>Contact Me</span></div>
+          <div class="text">
+            <div class=""><span><a>
+                  <h1>Get In Touch :</span></div>
 
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="images/Dhule Tourism_7.png" alt="Dhule Tourism " width="250" height="150">
-              </div>
+            <p><i class='fas fa-map-marker-alt' style='font-size:21px'></i><strong> Address:</strong> Dhule 424001,
+              Maharashtra , India.</p>
+            <p><i class='fas fa-phone-square' style='font-size:21px'></i><strong> Phone:</strong> +91 9156570480</p>
+            <p><i class='fas fa-location-arrow' style='font-size:21px'></i><strong> Email:</strong><a
+                href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=darshankotkar123@gmail.com" target="_blank">
+                darshankotkar123@gmail.com</a> </p>
+            <p><i class="fas fa-desktop" style='font-size:21px'></i><strong> Website:</strong><a
+                href="https://darshankotkar.tech/" target="_blank"> www.darshankotkar.tech</a></p>
 
-              <div class="media-icons">
-                <a href="https://github.com/da9156" target="_blank"><i class="fab fa-github"></i></a>
-              </div>
+            <div class="title"><span></span></div>
+            <div class="topic"><span><a> </span></div>
+            <div class="column right">
+              <form action="" method="post">
 
-              <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
+                <div class="fields">
+                  <div class="field name">
+                    <input type="text" placeholder="Name" name="Name" required>
+                  </div>
 
-              <h4 class=""> Dhule Tourism</h4>
-              <div class="right">
-                <p>In this project i have developed <br>a Dhule Tourism site this site show<br> you information about
-                  Dhule.</p>
-              </div>
+                  <div class="field email">
+                    <input type="email" placeholder="Email" name="Email" required>
+                  </div>
 
-              <div class="button">
-                <a href="https://sites.google.com/view/welcometodhule" target="_blank"><button
-                    class="aboutMe">Demo</button></a>
-              </div>
+                </div>
+
+                <div class="field">
+                  <input type="text" placeholder="Subject" name="Subject" required>
+                </div>
+
+                <div class="field textarea">
+                  <textarea cols="30" rows="10" placeholder="Message.." name="Message" required></textarea>
+                </div>
+
+                <div class="button">
+                  <div class="button-area">
+                    <button type="submit">Send message</button>
+                  </div>
+              </form>
+            </div>
+
+            <div class="topic">Have Any Project?</div>
+            <div class="button">
+              <a href="https://wa.me/+919156570480" target="_blank">
+                <button class="aboutMe">Let's Chat</button>
             </div>
           </div>
         </div>
-      </div>
-      </div>
-      </div>
-    </section>
+      </section>
 
-
-    <!-- My Project Section Start -->
-    <section class="Achievement" id="achievement">
-      <div class="content">
-        <div class="title"><span>My Achievement</span></div>
-      </div>
-
-
-      <div class="swiper mySwiper container">
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-        <div class="swiper-wrapper content">
-
-          <!-- ---------------------------------------------------------------------------------------------- -->
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <a target="_blank" href="images/Certificate/Salesforce  administrator.pdf">
-                  <img src="images/Certificate/Salesforce.jpg" alt="Salesforce" width="250" height="150">
-                </a>
-              </div>
-              <h5 class="card-title">Internship Certificate -</h5>
-              <p>Salesforce Administrator</p>
-
-            </div>
-          </div>
-          <!-- ------------------------------------------------------------------------------------------------------------------ -->
-
-          <!-- ---------------------------------------------------------------------------------------------- -->
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <a target="_blank" href="images/Certificate/IICC round 2 .pdf">
-                  <img src="images/Certificate/IICC round 2.png" alt="IICC" width="250" height="150">
-                </a>
-              </div>
-              <h5 class="card-title">IICC Contest -</h5>
-              <p>Cleared coding round 2 with <br> 941 among 83k+ contestants in all India.</p>
-
-            </div>
-          </div>
-          <!-- ------------------------------------------------------------------------------------------------------------------ -->
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <a target="_blank" href="images/Certificate/IDBI Java technology Certificate.pdf">
-                  <img src="images/Certificate/IDBI Java technology.png" alt="IDBI" width="250" height="150">
-                </a>
-              </div>
-              <h5 class="card-title">Traning Certificate -</h5>
-              <p>IDBI Java Technology</p>
-
-            </div>
-          </div>
-          <!-- ---------------------------------------------------------------------------------------------- -->
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <a target="_blank" href="images/Certificate/Google1.jpg">
-                  <img src="images/Certificate/Google1.jpg" alt="Google " width="250" height="150">
-                </a>
-              </div>
-              <h5 class="card-title">Google -</h5>
-              <p>Fundamental Of Digital Marketing</p>
-
-            </div>
-          </div>
-          <!-- ------------------------------------------------------------------------------------------------------------------ -->
-
-          <!-- ---------------------------------------------------------------------------------------------- -->
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <a target="_blank" href="images/Certificate/Microsoft2.jpg">
-                  <img src="images/Certificate/Microsoft2.jpg" alt="Microsoft" width="250" height="150">
-                </a>
-              </div>
-              <h5 class="card-title">Microsoft -</h5>
-              <p>Artificial intelligence Series</p>
-
-            </div>
-          </div>
-          <!-- ------------------------------------------------------------------------------------------------------------------ -->
-
-          <!-- ---------------------------------------------------------------------------------------------- -->
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <a target="_blank" href="images/Certificate/SQL3.jpg">
-                  <img src="images/Certificate/SQL3.jpg" alt="Sololearn" width="250" height="150">
-                </a>
-              </div>
-              <h5 class="card-title">Sololearn -</h5>
-              <p>SQL</p>
-            </div>
-          </div>
-          <!-- ------------------------------------------------------------------------------------------------------------------ -->
-
-          <!-- ---------------------------------------------------------------------------------------------- -->
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <a target="_blank" href="images/Certificate/Microsoft4.jpg">
-                  <img src="images/Certificate/Microsoft4.jpg" alt="Artificial" width="250" height="150">
-                </a>
-              </div>
-              <h5 class="card-title">Microsoft -</h5>
-              <p>Artificial intelligence</p>
-            </div>
-          </div>
-          <!-- ------------------------------------------------------------------------------------------------------------------ -->
-
-          <!-- ---------------------------------------------------------------------------------------------- -->
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <a target="_blank" href="images/Certificate/Eyantra5.jpg">
-                  <img src="images/Certificate/Eyantra5.jpg" alt="Eyantra" width="250" height="150">
-                </a>
-              </div>
-              <h5 class="card-title">Eyantra -</h5>
-              <p>Internet Of Things (IOT)</p>
-            </div>
-          </div>
-          <!-- ------------------------------------------------------------------------------------------------------------------ -->
-
-          <!-- ---------------------------------------------------------------------------------------------- -->
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <a target="_blank" href="images/Certificate/DELL6.jpg">
-                  <img src="images/Certificate/DELL6.jpg" alt="Dell" width="250" height="150">
-                </a>
-              </div>
-
-              <h5 class="card-title">Dell -</h5>
-              <p>Web Development</p>
-
-            </div>
-          </div>
-          <!-- ------------------------------------------------------------------------------------------------------------------ -->
-
-          <!-- ---------------------------------------------------------------------------------------------- -->
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <a target="_blank" href="images/Certificate/Coursera7.jpg">
-                  <img src="images/Certificate/Coursera7.jpg" alt="Coursera" width="250" height="150">
-                </a>
-              </div>
-
-              <h5 class="card-title">Coursera -</h5>
-              <p> Business English: Management and Leadership</p>
-
-            </div>
-          </div>
-          <!-- ------------------------------------------------------------------------------------------------------------------ -->
-
-          <!-- ---------------------------------------------------------------------------------------------- -->
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <a target="_blank" href="images/Certificate/Coursera8.jpg">
-                  <img src="images/Certificate/Coursera8.jpg" alt="Coursera" width="250" height="150">
-                </a>
-              </div>
-
-              <h5 class="card-title">Coursera -</h5>
-              <p>Business English: Finance and Economics</p>
-
-            </div>
-          </div>
-          <!-- ------------------------------------------------------------------------------------------------------------------ -->
-
-          <!-- ---------------------------------------------------------------------------------------------- -->
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <a target="_blank" href="images/Certificate/Microsoft PowerApps9.jpg">
-                  <img src="images/Certificate/Microsoft PowerApps9.jpg" alt="Microsoft PowerApps" width="250"
-                    height="150">
-                </a>
-              </div>
-
-              <h5 class="card-title">SVKM -</h5>
-              <p>Microsoft PowerApps</p>
-
-            </div>
-          </div>
-          <!-- ------------------------------------------------------------------------------------------------------------------ -->
-
-          <!-- ---------------------------------------------------------------------------------------------- -->
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <a target="_blank" href="images/Certificate/ICETIC10.jpg">
-                  <img src="images/Certificate/ICETIC10.jpg" alt="Blockchain" width="250" height="150">
-                </a>
-              </div>
-
-              <h5 class="card-title">SVKM -</h5>
-              <p>Blockchain: Paper Publish </p>
-
-            </div>
-          </div>
-          <!-- ------------------------------------------------------------------------------------------------------------------ -->
-
-
-
-
-        </div>
-      </div>
-
-
-
-
-      </div>
-
-    </section>
-
-
-    <!-- Contact Me section Start -->
-    <section class="contact" id="contact">
-      <div class="content">
-        <div class="title"><span>Contact Me</span></div>
+      <!-- Footer Section Start -->
+      <footer>
         <div class="text">
-          <div class=""><span><a>
-                <h1>Get In Touch :</span></div>
-
-          <p><i class='fas fa-map-marker-alt' style='font-size:21px'></i><strong> Address:</strong> Dhule 424001,
-            Maharashtra , India.</p>
-          <p><i class='fas fa-phone-square' style='font-size:21px'></i><strong> Phone:</strong> +91 9156570480</p>
-          <p><i class='fas fa-location-arrow' style='font-size:21px'></i><strong> Email:</strong><a
-              href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=darshankotkar123@gmail.com" target="_blank">
-              darshankotkar123@gmail.com</a> </p>
-          <p><i class="fas fa-desktop" style='font-size:21px'></i><strong> Website:</strong><a
-              href="https://darshankotkar.me/" target="_blank"> www.darshankotkar.me</a></p>
-
-          <div class="title"><span></span></div>
-          <div class="topic"><span><a> </span></div>
-          <div class="column right">
-            <form action="" method="post">
-
-              <div class="fields">
-                <div class="field name">
-                  <input type="text" placeholder="Name" name="Name" required>
-                </div>
-
-                <div class="field email">
-                  <input type="email" placeholder="Email" name="Email" required>
-                </div>
-
-              </div>
-
-              <div class="field">
-                <input type="text" placeholder="Subject" name="Subject" required>
-              </div>
-
-              <div class="field textarea">
-                <textarea cols="30" rows="10" placeholder="Message.." name="Message" required></textarea>
-              </div>
-
-              <div class="button">
-                <div class="button-area">
-                  <button type="submit">Send message</button>
-                </div>
-            </form>
-          </div>
-
-          <div class="topic">Have Any Project?</div>
-          <div class="button">
-            <a href="https://wa.me/+919156570480" target="_blank">
-              <button class="aboutMe">Let's Chat</button>
-          </div>
-
+          <span>&#169; 2023 All Rights Reserved</span>
         </div>
-      </div>
+      </footer>
 
-    </section>
-
-    <!-- Footer Section Start -->
-    <footer>
-      <div class="text">
-        <span>Created By darshankotkar.me | &#169; 2022 All Rights Reserved</span>
-      </div>
-    </footer>
-
-    <script src="script.js"></script>
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        slidesPerGroup: 3,
-        loop: true,
-        loopFillGroupWithBlank: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
+      <script src="script.js"></script>
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          slidesPerGroup: 3,
+          loop: true,
+          loopFillGroupWithBlank: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
 
 
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 
 </html>
